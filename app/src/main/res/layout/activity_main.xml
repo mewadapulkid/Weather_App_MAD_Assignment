@@ -27,7 +27,9 @@ android:background="@drawable/gradient_bg"
         android:layout_marginStart="117dp"
         android:layout_marginTop="22dp"
         android:layout_marginEnd="117dp"
-        android:text="Get Weather" />
+        android:text="Get Weather"
+        android:backgroundTint="#45b6fe"
+        />
 
     <ImageView
         android:id="@+id/weatherIcon"
@@ -40,15 +42,16 @@ android:background="@drawable/gradient_bg"
 
     <TextView
         android:id="@+id/locationText"
-        android:layout_width="112dp"
-        android:layout_height="47dp"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/weatherIcon"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="142dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginEnd="141dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="107dp"
         android:drawablePadding="8dp"
+        android:gravity="center"
         android:text="Location"
         android:textColor="@color/white"
         android:textSize="24sp" />

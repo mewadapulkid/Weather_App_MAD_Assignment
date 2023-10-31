@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         val url = URL(apiUrl)
         val connection = url.openConnection() as HttpURLConnection
 
-             val inputStream = connection.inputStream
+            val inputStream = connection.inputStream
             val reader = BufferedReader(InputStreamReader(inputStream))
             val response = StringBuilder()
             var line: String?
